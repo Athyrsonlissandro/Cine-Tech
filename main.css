@@ -1,0 +1,89 @@
+/* Estilos gerais do body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Barra de navegação */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Estilo dos cards de filmes */
+.card {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #666;
+}
+
+.btn {
+    width: 100%;
+}
+
+/* Estilo para os modais */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+/* Estilo para o container de filmes e favoritos */
+.container {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Exclui filmes dos favoritos */
+.remove-favorite-btn {
+    background-color: #f44336;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.remove-favorite-btn:hover {
+    background-color: #d32f2f;
+}
